@@ -20,7 +20,8 @@
 }
 
 ul {
-    margin: 0px;
+    width: 380px;
+    margin: auto;
     padding: 0px;
 }
 
@@ -46,4 +47,12 @@ ul li {
 #right_container {
     width: 400px;
     float: right;
+}
+
+.cheese {
+    text-align: center;
+    margin-left: 6px;
+    margin-right: 6px;
+    float: left;
+    font-size: 9pt;
 }
