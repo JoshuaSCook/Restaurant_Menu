@@ -3,13 +3,13 @@
     <head>
         <meta charset="UTF-8" />
         <title>Responsive Restaurant Menu</title>
-        <link type="text/css" rel="stylesheet" href="css/lg_style.css" />
-        <link type="text/css" rel="stylesheet" media="only screen and (min-width:0px) and (max-width:799px)" href="css/sm_style.css" />
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <link type="text/css" rel="stylesheet" media="only screen and (min-width:800px)" href="css/lg_style.css" />
     </head>
     <body>
         <div id="canvas">
             <div class="section" id="burgers">
-                <h1 id="burgerfi">BURGERFI</h1>
+                <h1 id="burgerfi">BURGER<span id="fi">FI</span></h1>
                 <h2 class="section_header">burgers</h2>
                 
                 <ul>
@@ -31,6 +31,8 @@
                     <li class="menu_item">THE TWENTY-EIGHT<span class="price">10.57</span></li>
                     <li class="item_description">DOUBLE NATURAL 28-DAY DRY-AGED GROUND BRISKET BURGER, SWISS + BLUE CHEESE, LETTUCE, TOMATO, PICKLES, BURGERFI SAUCE</li>
                 </ul>
+                
+                <img id="icon_1" src="images/burgerfi_logo.png">
             </div> <!-- end burgers -->
             
             <div id="right_container">
@@ -43,38 +45,44 @@
                         <li class="menu_item">TRIPLE<span class="price">7.47</span></li>
                     </ul>
                     
-                    <p id="cheeses">AMERICAN&nbsp;&nbsp;&nbsp;&nbsp;
-                                    SWISS&nbsp;&nbsp;&nbsp;&nbsp;
-                                    WHITE CHEDDAR&nbsp;&nbsp;&nbsp;&nbsp;
-                                    BLUE</p>
+                    <p id="toppings">AMERICAN&nbsp;&nbsp;&nbsp;
+                        SWISS&nbsp;&nbsp;&nbsp;
+                        WHITE CHEDDAR&nbsp;&nbsp;&nbsp;
+                        BLUE<br>
+                        LETTUCE&nbsp;&nbsp;&nbsp;
+                        TOMATO&nbsp;&nbsp;&nbsp;
+                        PICKLES&nbsp;&nbsp;&nbsp;
+                        JALAPENOS<br>
+                        GRILLED ONIONS&nbsp;&nbsp;&nbsp;
+                        DICED ONIONS</p>
                     
                     <ul class="left_column">
-                        <li class="condiment">SPORT PEPPERS</li>
-                        <li class="condiment">NEON RELISH</li>
-                        <li class="condiment">GRILLED MUSHROOMS<span class="price">1.00</span></li>
-                        <li class="condiment">KRAUT<span class="price">0.50</span></li>
-                        <li class="condiment">ONION RINGS<span class="price">1.00</span></li>
+                        <li class="extras">SPORT PEPPERS</li>
+                        <li class="extras">NEON RELISH</li>
+                        <li class="extras">GRILLED MUSHROOMS<span class="price">1.00</span></li>
+                        <li class="extras">KRAUT<span class="price">0.50</span></li>
+                        <li class="extras">ONION RINGS<span class="price">1.00</span></li>
                         <br>
-                        <li class="condiment">BURGERFI SAUCE</li>
-                        <li class="condiment">MAYO</li>
-                        <li class="condiment">DIJON MUSTARD</li>
-                        <li class="condiment">MUSTARD</li>
-                        <li class="condiment">KETCHUP</li>
+                        <li class="extras">BURGERFI SAUCE</li>
+                        <li class="extras">MAYO</li>
+                        <li class="extras">DIJON MUSTARD</li>
+                        <li class="extras">MUSTARD</li>
+                        <li class="extras">KETCHUP</li>
                     </ul>
 
                     <ul class="right_column">
-                        <li class="condiment">BACON<span class="price">1.57</span></li>
-                        <li class="condiment">FRIED EGG<span class="price">1.00</span></li>
-                        <li class="condiment">CHILI<span class="price">1.00</span></li>
-                        <li class="condiment">SALT + VINEGAR CHIPS<span class="price">1.00</span></li>
-                        <li class="condiment">ALTERNATIVE STYLE<span class="price">0.97</span></li>
+                        <li class="extras">BACON<span class="price">1.57</span></li>
+                        <li class="extras">FRIED EGG<span class="price">1.00</span></li>
+                        <li class="extras">CHILI<span class="price">1.00</span></li>
+                        <li class="extras">SALT + VINEGAR CHIPS<span class="price">1.00</span></li>
+                        <li class="extras">ALTERNATIVE STYLE<span class="price">0.97</span></li>
                         <br>
-                        <li class="condiment">A1 ORIGINAL SAUCE</li>
-                        <li class="condiment">HOT SAUCE</li>
-                        <li class="condiment">BBQ SAUCE</li>
-                        <li class="condiment">GARLIC AIOLI<span class="price">0.50</span></li>
-                        <li class="condiment">CHEESE SAUCE<span class="price">1.00</span></li>
-                        <li class="condiment">PETER LUGER SAUCE<span class="price">1.00</span></li>
+                        <li class="extras">A1 ORIGINAL SAUCE</li>
+                        <li class="extras">HOT SAUCE</li>
+                        <li class="extras">BBQ SAUCE</li>
+                        <li class="extras">GARLIC AIOLI<span class="price">0.50</span></li>
+                        <li class="extras">CHEESE SAUCE<span class="price">1.00</span></li>
+                        <li class="extras">PETER LUGER SAUCE<span class="price">1.00</span></li>
                     </ul>
                 </div> <!-- end build_your_better -->
                     
@@ -95,8 +103,13 @@
                     <ul class="right_column">
                         <li class="item_description"><STRONG>CHICAGO</STRONG><BR>MUSTARD, NEON RELISH, DICED ONION, TOMATO, SPORT PEPPERS, CELERY SALT, PICKLE, POPPY SEED BUN</li>
                     </ul>
+                    
+                    <img id="icon_2" src="images/burgerfi_logo.png">
                 </div> <!-- end dogs -->
             </div> <!-- end column -->
+            
+            <div id="footer">
+            </div> <!-- end footer -->
             
         </div> <!-- end canvas -->
     </body>
