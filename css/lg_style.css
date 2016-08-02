@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 #canvas {
     width: 800px;
     margin: auto;
@@ -5,6 +9,7 @@
 
 #burgerfi {
     text-align: center;
+    margin-bottom: 63px;
 }
 
 .section {
@@ -54,6 +59,7 @@ li {
     height: 15px;
     text-align: center;
     font-size: 9pt;
+    margin-bottom: 2px;
 }
 
 .condiment {
@@ -65,10 +71,12 @@ li {
     width: 180px;
     margin: 0px;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .right_column {
     width: 180px;
     float: right;
     margin-left: 10px;
+    margin-top: 10px;
 }

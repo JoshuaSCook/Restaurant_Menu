@@ -1,5 +1,9 @@
+body {
+    margin: 0px;
+}
+
 #canvas {
-    width: 800px;
+    width: 400px;
     margin: auto;
 }
 
@@ -46,7 +50,6 @@ li {
 
 #right_container {
     width: 400px;
-    float: right;
 }
 
 #cheeses {
@@ -54,6 +57,7 @@ li {
     height: 15px;
     text-align: center;
     font-size: 9pt;
+    margin-bottom: 2px;
 }
 
 .condiment {
@@ -65,10 +69,12 @@ li {
     width: 180px;
     margin: 0px;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .right_column {
     width: 180px;
     float: right;
     margin-left: 10px;
+    margin-top: 10px;
 }
