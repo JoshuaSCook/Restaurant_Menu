@@ -4,13 +4,15 @@
         <meta charset="UTF-8" />
         <title>Responsive Restaurant Menu</title>
         <link type="text/css" rel="stylesheet" href="css/lg_style.css" />
+        <link type="text/css" rel="stylesheet" media="only screen and (min-width:800px) and (max-width:1199px)" href="css/md_style.css" />
+        <link type="text/css" rel="stylesheet" media="only screen and (min-width:400px) and (max-width:799px)" href="css/sm_style.css" />
     </head>
     <body>
         <div id="canvas">
-            <h1 id="burgerfi">BURGERFI</h1>
-            
             <div class="section" id="burgers">
+                <h1 id="burgerfi">BURGERFI</h1>
                 <h2 class="section_header">burgers</h2>
+                
                 <ul>
                     <li class="menu_item">BURGERFI BURGER<span class="price">5.97</span></li>
                     <li class="item_description">DOUBLE NATURAL ANGUS BURGER, LETTUCE, TOMATO, BURGERFI SAUCE</li>
@@ -35,22 +37,65 @@
             <div id="right_container">
                 <div class="section" id="build_your_better">
                     <h2 class="section_header">build your better</h2>
+                    
                     <ul>
                         <li class="menu_item">SINGLE<span class="price">4.47</span></li>
                         <li class="menu_item">DOUBLE<span class="price">5.97</span></li>
                         <li class="menu_item">TRIPLE<span class="price">7.47</span></li>
                     </ul>
-                    <ul>
-                        <li class="cheese"><strong>CHEESE:</strong></li>
-                        <li class="cheese">AMERICAN</li>
-                        <li class="cheese">SWISS</li>
-                        <li class="cheese">WHITE CHEDDAR</li>
-                        <li class="cheese">BLUE</li>
+                    
+                    <p id="cheeses">AMERICAN&nbsp;&nbsp;&nbsp;&nbsp;
+                                    SWISS&nbsp;&nbsp;&nbsp;&nbsp;
+                                    WHITE CHEDDAR&nbsp;&nbsp;&nbsp;&nbsp;
+                                    BLUE</p>
+                    
+                    <ul class="left_column">
+                        <li class="condiment">SPORT PEPPERS</li>
+                        <li class="condiment">NEON RELISH</li>
+                        <li class="condiment">GRILLED MUSHROOMS<span class="price">1.00</span></li>
+                        <li class="condiment">KRAUT<span class="price">0.50</span></li>
+                        <li class="condiment">ONION RINGS<span class="price">1.00</span></li>
+                        <br>
+                        <li class="condiment">BURGERFI SAUCE</li>
+                        <li class="condiment">MAYO</li>
+                        <li class="condiment">DIJON MUSTARD</li>
+                        <li class="condiment">MUSTARD</li>
+                        <li class="condiment">KETCHUP</li>
+                    </ul>
+
+                    <ul class="right_column">
+                        <li class="condiment">BACON<span class="price">1.57</span></li>
+                        <li class="condiment">FRIED EGG<span class="price">1.00</span></li>
+                        <li class="condiment">CHILI<span class="price">1.00</span></li>
+                        <li class="condiment">SALT + VINEGAR CHIPS<span class="price">1.00</span></li>
+                        <li class="condiment">ALTERNATIVE STYLE<span class="price">0.97</span></li>
+                        <br>
+                        <li class="condiment">A1 ORIGINAL SAUCE</li>
+                        <li class="condiment">HOT SAUCE</li>
+                        <li class="condiment">BBQ SAUCE</li>
+                        <li class="condiment">GARLIC AIOLI<span class="price">0.50</span></li>
+                        <li class="condiment">CHEESE SAUCE<span class="price">1.00</span></li>
+                        <li class="condiment">PETER LUGER SAUCE<span class="price">1.00</span></li>
                     </ul>
                 </div> <!-- end build_your_better -->
                     
                 <div class="section" id="dogs">
                     <h2 class="section_header">dogs</h2>
+                    
+                    <ul>
+                        <li class="menu_item">KOBE-STYLE BEEF<span class="price">5.47</span></li>
+                        <li class="menu_item">CHICKEN APPLE<span class="price">4.97</span></li>
+                        <li class="menu_item">VIENNA BEEF<span class="price">3.97</span></li>
+                    </ul>
+                    
+                    <ul class="left_column">
+                        <li class="item_description"><STRONG>NEW YORK</STRONG><BR>KRAUT, MUSTARD</li>
+                        <li class="item_description"><STRONG>TEXAS</STRONG><BR>CHILI, CHEESE, HOT SAUCE</li>
+                    </ul>
+                    
+                    <ul class="right_column">
+                        <li class="item_description"><STRONG>CHICAGO</STRONG><BR>MUSTARD, NEON RELISH, DICED ONION, TOMATO, SPORT PEPPERS, CELERY SALT, PICKLE, POPPY SEED BUN</li>
+                    </ul>
                 </div> <!-- end dogs -->
             </div> <!-- end column -->
             
