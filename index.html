@@ -2,49 +2,62 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>Responsive Restaurant Menu</title>
+        <title>BURGERFI Menu</title>
+
+        <!-- style sheets (small and large screen widths respectively) -->
         <link type="text/css" rel="stylesheet" href="css/style.css" />
         <link type="text/css" rel="stylesheet" media="only screen and (min-width:800px)" href="css/lg_style.css" />
     </head>
     <body>
         <div id="canvas">
             <div class="section" id="burgers">
-                <h1 id="burgerfi">BURGER<span id="fi">FI</span></h1>
+                <h1 id="burgerfi"><a href="http://burgerfi.com/">BURGER<span id="fi">FI</span></a></h1>
                 <h2 class="section_header">burgers</h2>
-                
+
                 <ul>
                     <li class="menu_item">BURGERFI BURGER<span class="price">5.97</span></li>
-                    <li class="item_description">DOUBLE NATURAL ANGUS BURGER, LETTUCE, TOMATO, BURGERFI SAUCE</li>
-                    
+                    <li class="item_description">DOUBLE NATURAL ANGUS BURGER,
+                        LETTUCE, TOMATO, BURGERFI SAUCE</li>
+
                     <li class="menu_item">BURGERFI CHEESEBURGER<span class="price">6.97</span></li>
-                    <li class="item_description">DOUBLE NATURAL ANGUS BURGER, DOUBLE AMERICAN CHEESE, LETTUCE, TOMATO, BURGERFI SAUCE</li>
-                    
+                    <li class="item_description">DOUBLE NATURAL ANGUS BURGER,
+                        DOUBLE AMERICAN CHEESE, LETTUCE, TOMATO, BURGERFI SAUCE</li>
+
                     <li class="menu_item">VEGEFI BURGER<span class="price">6.97</span></li>
-                    <li class="item_description">CRISPY QUINOA + FRESH-CUT VEGGIE BURGER, WHITE CHEDDAR, LETTUCE, TOMATO, BURGERFI SAUCE ON A MULTIGRAIN BUN</li>
-                    
+                    <li class="item_description">CRISPY QUINOA + FRESH-CUT
+                        VEGGIE BURGER, WHITE CHEDDAR, LETTUCE, TOMATO, BURGERFI
+                        SAUCE ON A MULTIGRAIN BUN</li>
+
                     <li class="menu_item">BREAKFAST ALL DAY BURGER<span class="price">7.67</span></li>
-                    <li class="item_description">NATURAL ANGUS BURGER, AMERICAN CHEESE, BACON, MAPLE SYRUP, FRIED EGG, HASH BROWN, GRILLED ONIONS, KETCHUP</li>
-                    
+                    <li class="item_description">NATURAL ANGUS BURGER, AMERICAN
+                        CHEESE, BACON, MAPLE SYRUP, FRIED EGG, HASH BROWN,
+                        GRILLED ONIONS, KETCHUP</li>
+
                     <li class="menu_item">CONFLICTED BURGER<span class="price">7.47</span></li>
-                    <li class="item_description">NATURAL ANGUS BURGER, VEGGIE BURGER, AMERICAN + WHITE CHEDDAR CHEESE, LETTUCE, TOMATO, BURGERFI SAUCE</li>
-                    
+                    <li class="item_description">NATURAL ANGUS BURGER, VEGGIE
+                        BURGER, AMERICAN + WHITE CHEDDAR CHEESE, LETTUCE,
+                        TOMATO, BURGERFI SAUCE</li>
+
                     <li class="menu_item">THE TWENTY-EIGHT<span class="price">10.57</span></li>
-                    <li class="item_description">DOUBLE NATURAL 28-DAY DRY-AGED GROUND BRISKET BURGER, SWISS + BLUE CHEESE, LETTUCE, TOMATO, PICKLES, BURGERFI SAUCE</li>
+                    <li class="item_description">DOUBLE NATURAL 28-DAY DRY-AGED
+                        GROUND BRISKET BURGER, SWISS + BLUE CHEESE, LETTUCE,
+                        TOMATO, PICKLES, BURGERFI SAUCE</li>
                 </ul>
-                
+
                 <img id="icon_1" src="images/burgerfi_logo.png">
             </div> <!-- end burgers -->
-            
+
+            <!-- menu will split into a second column on a screen > 800px -->
             <div id="right_container">
                 <div class="section" id="build_your_better">
                     <h2 class="section_header">build your better</h2>
-                    
+
                     <ul>
                         <li class="menu_item">SINGLE<span class="price">4.47</span></li>
                         <li class="menu_item">DOUBLE<span class="price">5.97</span></li>
                         <li class="menu_item">TRIPLE<span class="price">7.47</span></li>
                     </ul>
-                    
+
                     <p id="toppings">AMERICAN&nbsp;&nbsp;&nbsp;
                         SWISS&nbsp;&nbsp;&nbsp;
                         WHITE CHEDDAR&nbsp;&nbsp;&nbsp;
@@ -55,7 +68,8 @@
                         JALAPENOS<br>
                         GRILLED ONIONS&nbsp;&nbsp;&nbsp;
                         DICED ONIONS</p>
-                    
+
+                    <!-- extras are split into 2 columns -->
                     <ul class="left_column">
                         <li class="extras">SPORT PEPPERS</li>
                         <li class="extras">NEON RELISH</li>
@@ -85,32 +99,35 @@
                         <li class="extras">PETER LUGER SAUCE<span class="price">1.00</span></li>
                     </ul>
                 </div> <!-- end build_your_better -->
-                    
+
                 <div class="section" id="dogs">
                     <h2 class="section_header">dogs</h2>
-                    
+
                     <ul>
                         <li class="menu_item">KOBE-STYLE BEEF<span class="price">5.47</span></li>
                         <li class="menu_item">CHICKEN APPLE<span class="price">4.97</span></li>
                         <li class="menu_item">VIENNA BEEF<span class="price">3.97</span></li>
                     </ul>
-                    
+
+                    <!-- dog styles are split into 2 columns -->
                     <ul class="left_column">
-                        <li class="item_description"><STRONG>NEW YORK</STRONG><BR>KRAUT, MUSTARD</li>
-                        <li class="item_description"><STRONG>TEXAS</STRONG><BR>CHILI, CHEESE, HOT SAUCE</li>
+                        <li class="item_description">NEW YORK<br>KRAUT, MUSTARD</li>
+                        <li class="item_description">TEXAS<br>CHILI, CHEESE, HOT SAUCE</li>
                     </ul>
-                    
+
                     <ul class="right_column">
-                        <li class="item_description"><STRONG>CHICAGO</STRONG><BR>MUSTARD, NEON RELISH, DICED ONION, TOMATO, SPORT PEPPERS, CELERY SALT, PICKLE, POPPY SEED BUN</li>
+                        <li class="item_description">CHICAGO<br>MUSTARD, NEON
+                            RELISH, DICED ONION, TOMATO, SPORT PEPPERS, CELERY
+                            SALT, PICKLE, POPPY SEED BUN</li>
                     </ul>
-                    
+
                     <img id="icon_2" src="images/burgerfi_logo.png">
                 </div> <!-- end dogs -->
             </div> <!-- end column -->
-            
+
             <div id="footer">
             </div> <!-- end footer -->
-            
+
         </div> <!-- end canvas -->
     </body>
 </html>

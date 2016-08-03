@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'bebas';
-    src: url('../fonts/BEBAS___-webfont.eot');
-    src: url('../fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/BEBAS___-webfont.woff') format('woff'),
-         url('../fonts/BEBAS___-webfont.ttf') format('truetype'),
-         url('../fonts/BEBAS___-webfont.svg#bebas') format('svg');
+    font-family: 'neord';
+    src: url('../fonts/NEORD___-webfont.eot');
+    src: url('../fonts/NEORD___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/NEORD___-webfont.woff') format('woff'),
+         url('../fonts/NEORD___-webfont.ttf') format('truetype'),
+         url('../fonts/NEORD___-webfont.svg#neord') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -16,17 +16,6 @@
          url('../fonts/Landliebe-webfont.woff') format('woff'),
          url('../fonts/Landliebe-webfont.ttf') format('truetype'),
          url('../fonts/Landliebe-webfont.svg#landliebe') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'neord';
-    src: url('../fonts/NEORD___-webfont.eot');
-    src: url('../fonts/NEORD___-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/NEORD___-webfont.woff') format('woff'),
-         url('../fonts/NEORD___-webfont.ttf') format('truetype'),
-         url('../fonts/NEORD___-webfont.svg#neord') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -48,11 +37,15 @@ body {
     margin: auto;
 }
 
+a {
+    color: rgb(152, 195, 60);
+    text-decoration: none;
+}
+
 #burgerfi {
     font-family: 'neord';
     font-size: 60px;
     text-align: center;
-    color: rgb(152, 195, 60);
 }
 
 #fi {
